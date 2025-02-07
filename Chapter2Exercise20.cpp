@@ -39,7 +39,7 @@ int main()
 	gallons_of_paint = fence_area / paint_area;
 
 	//Then we display that on the screen
-	cout << "The total gallons of paint required to paint 2 coats on this wooden fence is: " << gallons_of_paint << endl;
+	cout <<fixed<<setprecision(2)<< "The total gallons of paint required to paint 2 coats on this wooden fence is: " << gallons_of_paint << endl;
 
 	return 0;
 
