@@ -18,13 +18,13 @@ int main()
 	//Start with making variables
 	double length;
 	double height;
-	double paint_area{};
+	double paint_area=340;
 
 
 	double fence_area;
 	double gallons_of_paint;
 
-	cout << "Whats the length of the fence?: ";
+	cout << "Whats the length of the fence?:";
 	cin >> length;
 
 	cout << "Whats the height of the fence?:";
@@ -33,7 +33,9 @@ int main()
 
 
 	// Now we will now calculate the total number of gallons needed to paint 2 coats on this fence.
-	fence_area = 100 * 6 * 2;
+	fence_area = length * height * 2;
+
+
 	gallons_of_paint = fence_area / paint_area;
 
 	//Then we display that on the screen
